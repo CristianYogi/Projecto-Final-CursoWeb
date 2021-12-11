@@ -119,248 +119,50 @@
       <h2 id="titulo-juegos-proximos">Fecha De Juegos</h2>
       <div id="contenedor-sig">
         <div id="juegos-6meses" class="contenedor">
+          <% let cont = 0 %>
+          <% for (const key in proximosJuegos) { %>
+            <% if(proximosJuegos[key].length > 0 && key != 'SigAño'){%>
+              <% if (Object.hasOwnProperty.call(proximosJuegos, key)) { cont += 1%>
+                
+                <div class="contenedor-mes">
+                  <div class="fecha">
+                    <%= key%>
+                  </div>
+                  <div class="contenedor-prox-juegos borde<%= cont%>">
+                          <% proximosJuegos[key].forEach(juego => { %>
 
-          <div class="contenedor-mes">
-            <div class="fecha">
-              Sig Semana
-            </div>
-
-            <div class="contenedor-prox-juegos borde1">
-              <div class="juegosprox">
-                <a href="">               
-                  Back4Blood
-                  -
-                  25/05/2021</a>
-              </div>
-              <div class="juegosprox">
-                <a href="">               
-                  Back4Blood
-                  -
-                  25/05/2021</a>
-              </div>
-              <div class="juegosprox">
-                <a href="">               
-                  Back4Blood
-                  -
-                  25/05/2021</a>
-              </div>
-              <div class="juegosprox">
-                <a href="">               
-                  Back4Blood
-                  -
-                  25/05/2021</a>
-              </div>
-              
-            </div>
-
-          </div>
-          <div class="contenedor-mes">
-            <div class="fecha ">
-              Noviembre
-            </div>
-            <div class="contenedor-prox-juegos borde2">
-              <div class="juegosprox">
-                <a href="">               
-                  Back4Blood
-                  -
-                  25/05/2021</a>
-              </div>
-              <div class="juegosprox">
-                <a href="">               
-                  Back4Blood
-                  -
-                  25/05/2021</a>
-              </div>
-              <div class="juegosprox">
-                <a href="">               
-                  Back4Blood
-                  -
-                  25/05/2021</a>
-              </div>
-              <div class="juegosprox">
-                <a href="">               
-                  Back4Blood
-                  -
-                  25/05/2021</a>
-              </div>
-              <div class="juegosprox">
-                <a href="">               
-                  Back4Blood
-                  -
-                  25/05/2021</a>
-              </div>
-              <div class="juegosprox">
-                <a href="">               
-                  Back4Blood
-                  -
-                  25/05/2021</a>
-              </div>
-              <div class="juegosprox">
-                <a href="">               
-                  Back4Blood
-                  -
-                  25/05/2021</a>
-              </div>
-              <div class="juegosprox">
-                <a href="">               
-                  Back4Blood
-                  -
-                  25/05/2021</a>
-              </div>
-            </div>
-
-          </div>
-
-          <div class="contenedor-mes">
-            <div class="fecha ">
-              Diciembre
-            </div>
-            <div class="contenedor-prox-juegos borde3">
-              <div class="juegosprox">
-                <a href="">               
-                  Back4Blood
-                  -
-                  25/05/2021</a>
-              </div>
-              <div class="juegosprox">
-                <a href="">               
-                  Back4Blood
-                  -
-                  25/05/2021</a>
-              </div>
-              <div class="juegosprox">
-                <a href="">               
-                  Back4Blood
-                  -
-                  25/05/2021</a>
-              </div>
-              <div class="juegosprox">
-                <a href="">               
-                  Back4Blood
-                  -
-                  25/05/2021</a>
-              </div>
-            </div>
-
-          </div>
-
-          <div class="contenedor-mes">
-            <div class="fecha ">
-              Prueba
-            </div>
-
-            <div class="contenedor-prox-juegos borde4">
-              <div class="juegosprox">
-                <a href="">               
-                  Back4Blood
-                  -
-                  25/05/2021</a>
-              </div>
-              <div class="juegosprox">
-                <a href="">               
-                  Back4Blood
-                  -
-                  25/05/2021</a>
-              </div>
-              <div class="juegosprox">
-                <a href="">               
-                  Back4Blood
-                  -
-                  25/05/2021</a>
-              </div>
-              <div class="juegosprox">
-                <a href="">               
-                  Back4Blood
-                  -
-                  25/05/2021</a>
-              </div>
-            </div>
-
-          </div>
-
-        </div>
-
-
-        <div id="juegos-mas6meses" class="contenedor">
-          <div class="contenedor-mes">
-            <div class="fecha ">
-              Sig Año
-            </div>
-
-            <div class="contenedor-prox-juegos borde5">
-              <div class="juegosprox">
-                <a href="">               
-                  Back4Blood
-                  -
-                  25/05/2021</a>
-              </div>
-              <div class="juegosprox">
-                <a href="">               
-                  Back4Blood
-                  -
-                  25/05/2021</a>
-              </div>
-              <div class="juegosprox">
-                <a href="">               
-                  Back4Blood
-                  -
-                  25/05/2021</a>
-              </div>
-              <div class="juegosprox">
-                <a href="">               
-                  Back4Blood
-                  -
-                  25/05/2021</a>
-              </div>
-              <div class="juegosprox">
-                <a href="">               
-                  Back4Blood
-                  -
-                  25/05/2021</a>
-              </div>
-              <div class="juegosprox">
-                <a href="">               
-                  Back4Blood
-                  -
-                  25/05/2021</a>
-              </div>
-              <div class="juegosprox">
-                <a href="">               
-                  Back4Blood
-                  -
-                  25/05/2021</a>
-              </div>
-              <div class="juegosprox">
-                <a href="">               
-                  Back4Blood
-                  -
-                  25/05/2021</a>
-              </div>
-              <div class="juegosprox">
-                <a href="">               
-                  Back4Blood
-                  -
-                  25/05/2021</a>
-              </div>
-              <div class="juegosprox">
-                <a href="">               
-                  Back4Blood
-                  -
-                  25/05/2021</a>
-              </div>
-              <div class="juegosprox">
-                <a href="">               
-                  Back4Blood
-                  -
-                  25/05/2021</a>
-              </div>
-            </div>
-
-          </div>
-        </div>
+                            <div class="juegosprox">
+                              <a href="">               
+                                <%= juego[0]%>
+                                -
+                                <%= juego[1]%>
+                                </a>  
+                            </div>
+                          <% }) %>
+                      <% } %>
+                  </div>
+                </div>
+            <% }%>
+          <% } %>
       </div>
-
-
+      
+      <div id="juegos-mas6meses" class="contenedor">
+        <div class="contenedor-mes">
+          <div class="fecha borde5">
+            Sig Año
+          </div>
+          <div class="contenedor-prox-juegos">
+            
+              <% proximosJuegos['SigAño'].forEach(juego =>{ %>
+                <div class="juegosprox">
+                  <a href="">               
+                    <%= juego[0]%>
+                    -
+                    <%= juego[1]%></a>
+                </div>
+              <% })%>
+          </div>
+        </div>
     </div>
 
     <!-- </div>

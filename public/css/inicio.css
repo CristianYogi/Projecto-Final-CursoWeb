@@ -137,7 +137,7 @@
 .contenedor-mes{
     display: flex;
     width: 100%;
-
+    
     min-width: 300px;
     
 }
@@ -162,7 +162,7 @@
     display: flex;
     flex-direction: column;
 
-    justify-content: space-evenly;
+    justify-content: center;
 
 
     width: 100%;
@@ -191,7 +191,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    padding: 30px;
     width: 200px;
     
 
@@ -235,13 +235,68 @@
 }
 
 .borde5{
-    border-left: 10px solid #2b2d42;
+    border-left: 10px solid #5a189a;
 }
 
 .borde5:hover{
+    border-left: 10px solid #c77dff;
+}
+
+.borde6{
+    border-left: 10px solid #80ffdb;
+}
+
+.borde6:hover{
+    border-left: 10px solid #90e0ef;
+}
+
+.borde7{
+    border-left: 10px solid #abc4ff;
+}
+
+.borde7:hover{
+    border-left: 10px solid #ccdbfd;
+}
+
+.borde8{
+    border-left: 10px solid #a44a3f;
+}
+
+.borde8:hover{
+    border-left: 10px solid #e6796b;
+}
+
+.borde9{
+    border-left: 10px solid #2b2d42;
+}
+
+.borde9:hover{
     border-left: 10px solid rgb(27, 27, 70);
 }
 
+.borde10{
+    border-left: 10px solid #2b2d42;
+}
+
+.borde10:hover{
+    border-left: 10px solid rgb(27, 27, 70);
+}
+
+.borde11{
+    border-left: 10px solid #2b2d42;
+}
+
+.borde11:hover{
+    border-left: 10px solid rgb(27, 27, 70);
+}
+
+.borde12{
+    border-left: 10px solid #2b2d42;
+}
+
+.borde12:hover{
+    border-left: 10px solid rgb(27, 27, 70);
+}
 
 
 
