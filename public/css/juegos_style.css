@@ -1,0 +1,78 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* ------------------------------------------- */
+#busqueda-avanzada{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+#busqueda-avanzada p{
+    margin-bottom: 5px;
+    color: #8E8E8E;
+}
+/* ------------------------------------------- */
+
+#juegos-cards{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 30px 80px;
+    margin-bottom: 30px; 
+}
+
+.card{
+    width: 220px;
+    height: 333px;
+
+    
+}
+
+.card a{
+    width: inherit;
+    height: inherit;
+}
+
+.card img{
+    width: inherit;
+    height: inherit;
+
+    box-shadow: 1px 1px 5px 1px black;
+}
+
+
+@media (max-width:1440px){
+    #juegos-cards{
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+
+
+@media (max-width:1024px){
+    #juegos-cards{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
+@media (max-width:768px){
+    #juegos-cards{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media (max-width:425px){
+    #juegos-cards{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #busqueda-avanzada img{
+        width: 50%;
+    }
+
+}

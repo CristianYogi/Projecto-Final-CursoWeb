@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <%-include('../partials/head.ejs')%>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../css/juegos_solos.css">
+    <title>Age of Empires 4</title>
+</head>
+
+<body>
+    <%-include('../partials/nav.ejs')%>
+
+    <main>
+        <div id="titulo">
+            <h1><%= juego.titulo%></h1>
+            <!-- <div id="espacio"></div> -->
+        </div>
+        <div id="contenedor-general">
+            <div id="descripcion">
+                    <img src=<%= juego.imagen%> alt="">
+                <div id="caracteristicas">
+                    <div id="generos">
+                        
+                        <ul>
+                            <% juego.genero.forEach(genero =>{%>
+                            <li><%= genero%></li>
+                            <% }) %>
+                        </ul>
+
+                    </div>
+                    <ul id="l-caracteristicas">
+                        <li>Fecha de Salida:  <%= juego.fecha_salida%> </li>
+                        <li>Desarrolladores: <%= juego.desarrolladores%></li>
+                        <li>Distribuidora: <%= juego.distribuidora%></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="info">
+                <h2>Sipnosis</h2>
+                    <p>Uno de los juegos de estrategia en tiempo real más queridos vuelve a demostrar todo su esplendor con Age of Empires IV, donde serás la estrella de las épicas batallas históricas que moldearon el mundo que hoy conocemos.</p>
+                    <div id="espacio2"><div></div></div>
+                    
+                    <div>
+                        <h2>Requsistos De Sistema</h2>
+                        <div id="contenedor-requisitos">
+                            <div>
+                                <h4>Minimos</h4>
+                                <ul>
+                                    <li><b>SO:</b> <%= juego.requisitos.minimos.so%> </li>
+                                    <li><b>Procesador:</b> <%= juego.requisitos.minimos.procesador%></li>
+                                    <li><b>Memoria:</b> <%= juego.requisitos.minimos.memoria%></li>
+                                    <li><b>Graficos:</b> <%= juego.requisitos.minimos.graficos%></li>
+                                    <li><b>Almacenamiento:</b> <%= juego.requisitos.minimos.almacenamiento%></li>
+
+                                </ul>
+                            </div>
+                            <div>
+                                <% if (juego.requisitos.maximos.so != ""){%>
+                                <h4>Maximos</h4>
+                                <ul>
+                                    <li><b>SO:</b> <%= juego.requisitos.maximos.so%> </li>
+                                    <li><b>Procesador:</b> <%= juego.requisitos.maximos.procesador%></li>
+                                    <li><b>Memoria:</b> <%= juego.requisitos.maximos.memoria%></li>
+                                    <li><b>Graficos:</b> <%= juego.requisitos.maximos.graficos%></li>
+                                    <li><b>Almacenamiento:</b> <%= juego.requisitos.maximos.almacenamiento%></li>
+                                </ul>
+                                <% } %>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            
+        </div>
+
+
+
+    </main>
+
+
+
+
+    <%-include('../partials/footer.ejs')%>
+</body>
+
+</html>
