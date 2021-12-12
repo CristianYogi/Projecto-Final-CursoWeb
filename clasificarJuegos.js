@@ -23,7 +23,6 @@ function llenarJuegosClasificados(mesActual, lista){
 
 
 function formatearFecha(fecha){
-    let fechaFinal = ""
     let fechaFormateada = []
     let aux = ""
     for (let i = 0; i < fecha.length; i++) {
@@ -39,9 +38,9 @@ function formatearFecha(fecha){
     fechaFormateada.push(aux)
 
 
-    fechaFinal = `${fechaFormateada[1]}/${fechaFormateada[0]}/${fechaFormateada[2]}`
+    return `${fechaFormateada[1]}/${fechaFormateada[0]}/${fechaFormateada[2]}`
 
-    return fechaFinal
+     
 
 }
 
@@ -64,10 +63,9 @@ function clasificarJuegos(lista = [""]){
 
         if(fechaJuego.anio - fechaHoy.anio == 1){
             juegosClasificados["SigAño"].push([juego.titulo, fechaJuegoString])
-        }else{
-            if(fechaJuego.mes > fechaHoy.mes){
-                juegosClasificados[meses[fechaJuego.mes - 1]].push([juego.titulo, fechaJuegoString])
-            }
+            
+        }else if (fechaJuego.mes > fechaHoy.mes){
+            juegosClasificados[meses[fechaJuego.mes - 1]].push([juego.titulo, fechaJuegoString])
         }
 
         
