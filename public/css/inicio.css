@@ -279,7 +279,7 @@
 }
 
 .borde10:hover{
-    border-left: 10px solid rgb(27, 27, 70);
+    border-left: 10px solid rgb(43, 43, 141);
 }
 
 .borde11{
@@ -298,7 +298,13 @@
     border-left: 10px solid rgb(27, 27, 70);
 }
 
+.bordeSigAño{
+    border-left: 10px solid #8d99ae;
+}
 
+.bordeSigAño:hover{
+    border-left: 10px solid #a6b4cc;
+}
 
 @media (max-width:1024px){
 
