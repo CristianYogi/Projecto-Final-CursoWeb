@@ -65,51 +65,21 @@
         <!-- <div id="separador-2"></div> -->
         <div id="destacados">
           <h2>Destacados</h2>
-          <div class="juegos-destacados color-2">
-            <div id="contador">#1</div>
-            <div id="cont-titulo-puntuacion">
-              <div id="titulo">
-                <p>Mortal Kombat</p>
+
+          <% for (let i = 0; i < 5; i++) { %>
+            <% let color = (i % 2 == 0) ? 2 : 1%>
+            <div class="juegos-destacados color-<%= color%>">
+              <div id="contador">#<%= i + 1%></div>
+              <div id="cont-titulo-puntuacion">
+                <div id="titulo">
+                  <p><%= listaTop[i].titulo%></p>
+                </div>
+                <div id="puntuacion"><%= listaTop[i].puntuacion%></div>
               </div>
-              <div id="puntuacion">96</div>
             </div>
-          </div>
-          <div class="juegos-destacados color-1">
-            <div id="contador">#2</div>
-            <div id="cont-titulo-puntuacion">
-              <div id="titulo">
-                <p>Persona 5</p>
-              </div>
-              <div id="puntuacion">95</div>
-            </div>
-          </div>
-          <div class="juegos-destacados color-2">
-            <div id="contador">#3</div>
-            <div id="cont-titulo-puntuacion">
-              <div id="titulo">
-                <p>Ace Attorney</p>
-              </div>
-              <div id="puntuacion">86</div>
-            </div>
-          </div>
-          <div class="juegos-destacados color-1">
-            <div id="contador">#4</div>
-            <div id="cont-titulo-puntuacion">
-              <div id="titulo">
-                <p>Satisfactory</p>
-              </div>
-              <div id="puntuacion">75</div>
-            </div>
-          </div>
-          <div class="juegos-destacados color-2">
-            <div id="contador">#5</div>
-            <div id="cont-titulo-puntuacion">
-              <div id="titulo">
-                <p>Back4Blood</p>
-              </div>
-              <div id="puntuacion">74</div>
-            </div>
-          </div>
+          <% } %>
+
+
         </div>
 
       </div>

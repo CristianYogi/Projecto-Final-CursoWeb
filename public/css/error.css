@@ -1,0 +1,59 @@
+body{
+    margin: 0px;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    width: 50vh;
+    height: 50vh;
+
+    
+
+    display: flex;
+    flex-direction: column;
+
+    
+    align-items: center;
+
+    box-shadow: 0px 0px 5px 1px rgb(182, 182, 182);
+}
+
+h1{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    color: snow;
+    background-color: #011627;
+}
+
+p{
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
+span{
+    color: tomato;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+a{
+    margin-top: 100px;
+    padding: 10px;
+    box-shadow: 0px 0px 3px 1px rgb(182, 182, 182);
+}
+
+a:hover{
+    color: snow;
+    background-color: #011627;
+}
+

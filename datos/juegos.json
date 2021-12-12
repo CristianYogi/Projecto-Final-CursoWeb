@@ -8,18 +8,18 @@
         "imagen" : "../img/imagenes_juegos/age_of_empires_4.jpg",
                 "requisitos" : {
             "minimos" : {
-                "so" : "",
-                "procesador" : "",
-                "memoria" : "",
-                "graficos" : "",
-                "almacenamiento" : ""
+                "so" : "Windows 10 64bit | Windows 11 64bit",
+                "procesador" : "Intel Core i5-6300U or AMD Ryzen 5 2400G | CPU with AVX support required",
+                "memoria" : "8 GB de RAM",
+                "graficos" : "Intel HD 520 or AMD Radeon RX Vega 11",
+                "almacenamiento" : "50 GB de espacio disponible"
             },
             "maximos" : {
-                "so" : "",
-                "procesador" : "",
-                "memoria" : "",
-                "graficos" : "",
-                "almacenamiento" : ""
+                "so" : "Windows 10 64bit | Windows 11 64bit",
+                "procesador" : "3.6 GHz 6-core (Intel i5) or AMD Ryzen 5 1600 | CPU with AVX support required",
+                "memoria" : "16 GB de RAM",
+                "graficos" : "Nvidia GeForce 970 GPU or AMD Radeon RX 570 GPU with 4GB of VRAM",
+                "almacenamiento" : "50 GB de espacio disponible"
             }
         }
         
@@ -34,11 +34,11 @@
         "imagen" : "../img/imagenes_juegos/baba_is_you.jpg",
                 "requisitos" : {
             "minimos" : {
-                "so" : "",
-                "procesador" : "",
-                "memoria" : "",
-                "graficos" : "",
-                "almacenamiento" : ""
+                "so" : "Windows 7",
+                "procesador" : "2.0 GHz+, 32-bit",
+                "memoria" : "1 GB de RAM",
+                "graficos" : "ATI Radeon X1300/NVIDIA GeForce 6600 GT/Intel HD 3000 or better",
+                "almacenamiento" : "200 MB de espacio disponible"
             },
             "maximos" : {
                 "so" : "",
@@ -52,43 +52,43 @@
     {
         "id" : 3,
         "genero" : ["FPSBuena", "trama", "Acción", "Un jugador", "Belleza"],
-        "fecha_salida" : "",
-        "desarrolladores" : "",
-        "distribuidora" : "" ,
+        "fecha_salida" : "25 MAR 2013",
+        "desarrolladores" : "Irrational Games",
+        "distribuidora" : "2K" ,
         "titulo" : "Bioshock Infinite",
         "imagen" : "../img/imagenes_juegos/bioshock_infinite.jpg",
                 "requisitos" : {
             "minimos" : {
-                "so" : "",
-                "procesador" : "",
-                "memoria" : "",
-                "graficos" : "",
-                "almacenamiento" : ""
+                "so" : "Windows Vista Service Pack 2 32-bit",
+                "procesador" : "Intel Core 2 DUO 2.4 GHz / AMD Athlon X2 2.7 GHz",
+                "memoria" : "2GB",
+                "graficos" : "DirectX10 Compatible ATI Radeon HD 3870 / NVIDIA 8800 GT / Intel HD 3000 Integrated Graphics",
+                "almacenamiento" : "20 GB free"
             },
             "maximos" : {
-                "so" : "",
-                "procesador" : "",
-                "memoria" : "",
-                "graficos" : "",
-                "almacenamiento" : ""
+                "so" : "Windows 7 Service Pack 1 64-bit",
+                "procesador" : "Quad Core Processor",
+                "memoria" : "4GB",
+                "graficos" : "DirectX11 Compatible, AMD Radeon HD 6950 / NVIDIA GeForce GTX 560",
+                "almacenamiento" : "30 GB free"
             }
         }
     },
     {   
         "id" : 4,
         "genero" : ["FPS", "Atmosférico", "Buena trama", "Acción", "Terror"],
-        "fecha_salida" : "",
-        "desarrolladores" : "",
-        "distribuidora" : "" ,
+        "fecha_salida" : "21 AGO 2007",
+        "desarrolladores" : "2K Boston, 2K Australia",
+        "distribuidora" : "2K",
         "titulo" : "Bioshock",
         "imagen" : "../img/imagenes_juegos/bioshock.jpg",
                 "requisitos" : {
             "minimos" : {
-                "so" : "",
-                "procesador" : "",
-                "memoria" : "",
-                "graficos" : "",
-                "almacenamiento" : ""
+                "so" : "Windows 7",
+                "procesador" : "-",
+                "memoria" : "-",
+                "graficos" : "-",
+                "almacenamiento" : "-"
             },
             "maximos" : {
                 "so" : "",
@@ -102,18 +102,18 @@
     {   
         "id" : 5,
         "genero" : ["Videojuego de rol de acción", "Survival horror"],
-        "fecha_salida" : "",
-        "desarrolladores" : "",
-        "distribuidora" : "" ,
+        "fecha_salida" : "24 de marzo de 2015",
+        "desarrolladores" : "FromSoftware",
+        "distribuidora" : "FromSoftware" ,
         "titulo" : "Bloodborne",
         "imagen" : "../img/imagenes_juegos/bloodborne.jpeg",
                 "requisitos" : {
             "minimos" : {
-                "so" : "",
-                "procesador" : "",
-                "memoria" : "",
-                "graficos" : "",
-                "almacenamiento" : ""
+                "so" : "-",
+                "procesador" : "-",
+                "memoria" : "-",
+                "graficos" : "-",
+                "almacenamiento" : "-"
             },
             "maximos" : {
                 "so" : "",
@@ -127,18 +127,18 @@
     {   
         "id" : 6,
         "genero" : ["Juegos de clics", "Inactividad", "Casual", "Indie2D"],
-        "fecha_salida" : "",
-        "desarrolladores" : "",
-        "distribuidora" : "" ,
+        "fecha_salida" : "1 SEP 2021",
+        "desarrolladores" : "Orteil, DashNet",
+        "distribuidora" : "Playsaurus" ,
         "titulo" : "Cookie Clicker",
         "imagen" : "../img/imagenes_juegos/cookie_clicker.jpeg",
                 "requisitos" : {
             "minimos" : {
-                "so" : "",
-                "procesador" : "",
-                "memoria" : "",
-                "graficos" : "",
-                "almacenamiento" : ""
+                "so" : "Microsoft® Windows Server 2008, Windows 7, or Windows 8 Classic",
+                "procesador" : "2.33GHz or faster x86-compatible processor, or Intel Atom™ 1.6GHz or faster processor for netbook class devices",
+                "memoria" : "512 MB de RAM",
+                "graficos" : "-",
+                "almacenamiento" : "350 MB de espacio disponible"
             },
             "maximos" : {
                 "so" : "",
@@ -152,50 +152,50 @@
     {   
         "id" : 7,
         "genero" : [ "Terror", "Supervivencia" , "Terror", "Multijugador", "Sigilo"],
-        "fecha_salida" : "",
-        "desarrolladores" : "",
-        "distribuidora" : "" ,
+        "fecha_salida" : "14 JUN 2016",
+        "desarrolladores" : "Behaviour Interactive Inc.",
+        "distribuidora" : "Behaviour Interactive Inc." ,
         "titulo" : "Dead by Daylight",
         "imagen" : "../img/imagenes_juegos/dead_by_daylight.jpeg",
                 "requisitos" : {
             "minimos" : {
-                "so" : "",
-                "procesador" : "",
-                "memoria" : "",
-                "graficos" : "",
-                "almacenamiento" : ""
+                "so" : "Sistemas operativos de 64 bits (Windows 10)",
+                "procesador" : "Intel Core i3-4170 o AMD FX-8120",
+                "memoria" : "8 GB de RAM",
+                "graficos" : "GeForce GTX 460 1GB o AMD HD 6850 1GB, compatibles con DX11",
+                "almacenamiento" : "50 GB de espacio disponible"
             },
             "maximos" : {
-                "so" : "",
-                "procesador" : "",
-                "memoria" : "",
-                "graficos" : "",
-                "almacenamiento" : ""
+                "so" : "Sistemas operativos de 64 bits (Windows 10)",
+                "procesador" : "Intel Core i3-4170, AMD FX-8300 o superior o Memoria: 8 GB de RAM",
+                "memoria" : "8 GB de RAM",
+                "graficos" : "GeForce 760 o AMD HD 8800 o superior con 4GB de RAM, compatibles con DX11",
+                "almacenamiento" : "50 GB de espacio disponible"
             }
         }
     },
     {   
         "id" : 8,
         "genero" : ["Juegos de rol tácticos", "Exploración", "Buena trama"],
-        "fecha_salida" : "",
-        "desarrolladores" : "",
-        "distribuidora" : "" ,
+        "fecha_salida" : "14 SEP 2017",
+        "desarrolladores" : "Larian Studios",
+        "distribuidora" : "Larian Studios" ,
         "titulo" : "Divinity Original Sin 2",
         "imagen" : "../img/imagenes_juegos/divinity_original_sin_2.jpg",
                 "requisitos" : {
             "minimos" : {
-                "so" : "",
-                "procesador" : "",
-                "memoria" : "",
-                "graficos" : "",
-                "almacenamiento" : ""
+                "so" : "Windows 7 SP1 64-bit or Windows 8.1 64-bit or Windows 10 64-bit",
+                "procesador" : "Intel Core i5 or equivalent",
+                "memoria" : "4 GB de RAM",
+                "graficos" : "NVIDIA® GeForce® GTX 550 or ATI™ Radeon™ HD 6XXX or higher",
+                "almacenamiento" : "60 GB de espacio disponible"
             },
             "maximos" : {
-                "so" : "",
-                "procesador" : "",
-                "memoria" : "",
-                "graficos" : "",
-                "almacenamiento" : ""
+                "so" : "Windows 7 SP1 64-bit or Windows 8.1 64-bit or Windows 10 64-bit",
+                "procesador" : "Intel Core i7 or equivalent",
+                "memoria" : "8 GB de RAM",
+                "graficos" : "NVIDIA GeForce GTX 770 or AMD R9 280",
+                "almacenamiento" : "60 GB de espacio disponible"
             }
         }
     },
@@ -209,11 +209,11 @@
         "imagen" : "../img/imagenes_juegos/ds1.jpg",
                 "requisitos" : {
             "minimos" : {
-                "so" : "",
-                "procesador" : "",
-                "memoria" : "",
-                "graficos" : "",
-                "almacenamiento" : ""
+                "so" : "-",
+                "procesador" : "-",
+                "memoria" : "-",
+                "graficos" : "-",
+                "almacenamiento" : "-"
             },
             "maximos" : {
                 "so" : "",
@@ -226,118 +226,118 @@
     },
     {   
         "id" : 10,
-        "genero" : ["Dark Souls", "Fantasía oscura", "Rol"],
-        "fecha_salida" : "",
-        "desarrolladores" : "",
-        "distribuidora" : "" ,
+        "genero" : ["Dark Souls 2", "Fantasía oscura", "Rol"],
+        "fecha_salida" : "1 ABR 2015",
+        "desarrolladores" : "FromSoftware, Inc",
+        "distribuidora" : "BANDAI NAMCO Entertainment" ,
         "titulo" : "Dark Souls 2",
         "imagen" : "../img/imagenes_juegos/ds2.jpg",
                 "requisitos" : {
             "minimos" : {
-                "so" : "",
-                "procesador" : "",
-                "memoria" : "",
-                "graficos" : "",
-                "almacenamiento" : ""
+                "so" : "Windows 7 SP1 64bit, Windows 8.1 64bit",
+                "procesador" : "AMD® A8 3870 3,6 Ghz or Intel® Core ™ i3 2100 3.1Ghz",
+                "memoria" : "4 GB de RAM",
+                "graficos" : "NVIDIA® GeForce GTX 465 / ATI Radeon TM HD 6870",
+                "almacenamiento" : "23 GB de espacio disponible"
             },
             "maximos" : {
-                "so" : "",
-                "procesador" : "",
-                "memoria" : "",
-                "graficos" : "",
-                "almacenamiento" : ""
+                "so" : "Windows 7 SP1 64bit, Windows 8.1 64bit",
+                "procesador" : "AMD® FX 8150 3.6 GHz or Intel® Core™ i7 2600 3.4 GHz",
+                "memoria" : "8 GB de RAM",
+                "graficos" : "NVIDIA® GeForce® GTX 750, ATI Radeon™ HD 7850",
+                "almacenamiento" : "23 GB de espacio disponible"
             }
         }
     },
     {   
         "id" : 11,
-        "genero" : ["Dark Souls", "Fantasía oscura", "Dificil", "Rol"],
-        "fecha_salida" : "",
-        "desarrolladores" : "",
-        "distribuidora" : "" ,
+        "genero" : ["Dark Souls 3", "Fantasía oscura", "Dificil", "Rol"],
+        "fecha_salida" : "11 ABR 2016",
+        "desarrolladores" : "FromSoftware, Inc.",
+        "distribuidora" : "FromSoftware, Inc" ,
         "titulo" : "Dark Souls 3",
         "imagen" : "../img/imagenes_juegos/ds3.jpg",
                 "requisitos" : {
             "minimos" : {
-                "so" : "",
-                "procesador" : "",
-                "memoria" : "",
-                "graficos" : "",
-                "almacenamiento" : ""
+                "so" : "Windows 7 SP1 64bit, Windows 8.1 64bit Windows 10 64bit",
+                "procesador" : "Intel Core i3-2100 / AMD® FX-6300",
+                "memoria" : "4 GB de RAM",
+                "graficos" : "NVIDIA® GeForce GTX 750 Ti / ATI Radeon HD 7950",
+                "almacenamiento" : "25 GB de espacio disponible"
             },
             "maximos" : {
-                "so" : "",
-                "procesador" : "",
-                "memoria" : "",
-                "graficos" : "",
-                "almacenamiento" : ""
+                "so" : "Windows 7 SP1 64bit, Windows 8.1 64bit Windows 10 64bit",
+                "procesador" : "Intel Core i7-3770 / AMD® FX-8350",
+                "memoria" : "8 GB de RAM",
+                "graficos" : "NVIDIA® GeForce GTX 970 / ATI Radeon R9 series",
+                "almacenamiento" : "25 GB de espacio disponible"
             }
         }
     },
     {   
         "id" : 12,
         "genero" : ["Gran banda sonora", "Violento", "Acción", "Indie", "2D"],
-        "fecha_salida" : "",
-        "desarrolladores" : "",
-        "distribuidora" : "" ,
+        "fecha_salida" : "23 OCT 2012",
+        "desarrolladores" : "Dennaton Games",
+        "distribuidora" : "Devolver Digital" ,
         "titulo" : "Hotline Miame",
         "imagen" : "../img/imagenes_juegos/hotline_miame.jpg",
                 "requisitos" : {
             "minimos" : {
-                "so" : "",
-                "procesador" : "",
-                "memoria" : "",
-                "graficos" : "",
-                "almacenamiento" : ""
+                "so" : "Microsoft® Windows® XP / Vista / 7",
+                "procesador" : "1.2GHz processor",
+                "memoria" : "512 MB RAM",
+                "graficos" : "DirectX 8-compatible graphics card with at least 32MB of video memory",
+                "almacenamiento" : "250 MB HD space"
             },
             "maximos" : {
-                "so" : "",
-                "procesador" : "",
-                "memoria" : "",
-                "graficos" : "",
-                "almacenamiento" : ""
+                "so" : "Microsoft® Windows® XP / Vista / 7",
+                "procesador" : "1.4GHz processor or faster",
+                "memoria" : "1 GB RAM",
+                "graficos" : "DirectX 8-compatible graphics card with at least 32MB of video memory",
+                "almacenamiento" : "250 MB HD space"
             }
         }
     },
     {   
         "id" : 13,
         "genero" : ["Cooperativos", "Acción", "FPS", "Atraco", "Sigilo"],
-        "fecha_salida" : "",
-        "desarrolladores" : "",
-        "distribuidora" : "" ,
+        "fecha_salida" : "13 AGO 2013",
+        "desarrolladores" : "OVERKILL - a Starbreeze Studio.",
+        "distribuidora" : "Starbreeze Publishing AB" ,
         "titulo" : "Pay Day 2",
         "imagen" : "../img/imagenes_juegos/pay_day_2.jpg",
                 "requisitos" : {
             "minimos" : {
-                "so" : "",
-                "procesador" : "",
-                "memoria" : "",
-                "graficos" : "",
-                "almacenamiento" : ""
+                "so" : "Windows 7",
+                "procesador" : "2 GHz Intel Dual Core Processor",
+                "memoria" : "4 GB RAM",
+                "graficos" : "Nvidia & AMD (512MB VRAM)",
+                "almacenamiento" : "83 GB available space"
             },
             "maximos" : {
-                "so" : "",
-                "procesador" : "",
-                "memoria" : "",
-                "graficos" : "",
-                "almacenamiento" : ""
+                "so" : "Windows 10",
+                "procesador" : "2.3 GHz Intel Quad Core Processor",
+                "memoria" : "8 GB RAM",
+                "graficos" : "Nvidia & AMD (1GB VRAM)",
+                "almacenamiento" : "83 GB available space"
             }
         }
     },
     {   
         "id" : 14,
         "genero" : ["Supervivencia", "Terror Primera persona"],
-        "fecha_salida" : "",
-        "desarrolladores" : "",
-        "distribuidora" : "" ,
+        "fecha_salida" : "7 MAY 2021",
+        "desarrolladores" : "CAPCOM Co., Ltd.",
+        "distribuidora" : "CAPCOM Co., Ltd." ,
         "titulo" : "Resident Evil Village",
         "imagen" : "../img/imagenes_juegos/resident_evil_8.jpg",
                 "requisitos" : {
             "minimos" : {
-                "so" : "",
-                "procesador" : "",
-                "memoria" : "",
-                "graficos" : "",
+                "so" : "Windows 10 (64 bit)",
+                "procesador" : "AMD Ryzen 3 1200 ／ Intel Core i5-7500",
+                "memoria" : "8 GB de RAM",
+                "graficos" : "AMD Radeon RX 560 with 4GB VRAM ／ NVIDIA GeForce GTX 1050 Ti with 4GB VRAM",
                 "almacenamiento" : ""
             },
             "maximos" : {
@@ -352,43 +352,43 @@
     {   
         "id" : 15,
         "genero" : ["Mundo abierto", "Rol", "Aventuras", "Un jugador"],
-        "fecha_salida" : "",
-        "desarrolladores" : "",
-        "distribuidora" : "" ,
+        "fecha_salida" : "27 OCT 2016",
+        "desarrolladores" : "Bethesda Game Studios",
+        "distribuidora" : "Bethesda Softworks" ,
         "titulo" : "Skyrim",
         "imagen" : "../img/imagenes_juegos/skyrim.jpg",
                 "requisitos" : {
             "minimos" : {
-                "so" : "",
-                "procesador" : "",
-                "memoria" : "",
-                "graficos" : "",
-                "almacenamiento" : ""
+                "so" : "Windows 7/8.1/10 (requiere versión de 64 bits)",
+                "procesador" : "Intel Core i5-750/AMD Phenom II X4-945",
+                "memoria" : "8 GB de RAM",
+                "graficos" : "NVIDIA GTX 470 de 1 GB/AMD HD 7870 de 2 GB",
+                "almacenamiento" : "12 GB de espacio disponible"
             },
             "maximos" : {
-                "so" : "",
-                "procesador" : "",
-                "memoria" : "",
-                "graficos" : "",
-                "almacenamiento" : ""
+                "so" : "Windows 7/8.1/10 (requiere versión de 64 bits)",
+                "procesador" : "Intel Core i5-2400/AMD FX-8320",
+                "memoria" : "8 GB de RAM",
+                "graficos" : "NVIDIA GTX 780 de 3 GB/AMD R9 290 de 4 GB",
+                "almacenamiento" : "12 GB de espacio disponible"
             }
         }
     },
     {   
         "id" : 16,
         "genero" : ["Supervivencia en mundo abierto", "Sandbox2D"],
-        "fecha_salida" : "",
-        "desarrolladores" : "",
-        "distribuidora" : "" ,
+        "fecha_salida" : "16 MAY 2011",
+        "desarrolladores" : "Re-Logic",
+        "distribuidora" : "Re-Logic" ,
         "titulo" : "Terraria",
         "imagen" : "../img/imagenes_juegos/terraria.jpg",
                 "requisitos" : {
             "minimos" : {
-                "so" : "",
-                "procesador" : "",
-                "memoria" : "",
-                "graficos" : "",
-                "almacenamiento" : ""
+                "so" : "Windows XP / Vista / 7",
+                "procesador" : "1.6 GHz",
+                "memoria" : "512 MB de RAM",
+                "graficos" : "Shader Model 1.1 con 128 MB de VRAM",
+                "almacenamiento" : "200 MB de espacio libre"
             },
             "maximos" : {
                 "so" : "",
@@ -402,34 +402,34 @@
     {   
         "id" : 17,
         "genero" : ["Mundo abierto", "Rol", "Buena trama", "Atmosférico"],
-        "fecha_salida" : "",
-        "desarrolladores" : "",
-        "distribuidora" : "" ,
+        "fecha_salida" : "18 MAY 2015",
+        "desarrolladores" : "CD PROJEKT RED",
+        "distribuidora" : "CD PROJEKT RED" ,
         "titulo" : "The Witcher 3",
         "imagen" : "../img/imagenes_juegos/the_witcher_3.jpg",
         "requisitos" : {
             "minimos" : {
-                "so" : "",
-                "procesador" : "",
-                "memoria" : "",
-                "graficos" : "",
-                "almacenamiento" : ""
+                "so" : "64-bit Windows 7, 64-bit Windows 8 (8.1) or 64-bit Windows 10",
+                "procesador" : "Intel CPU Core i5-2500K 3.3GHz / AMD CPU Phenom II X4 940",
+                "memoria" : "6 GB de RAM",
+                "graficos" : "Nvidia GPU GeForce GTX 660 / AMD GPU Radeon HD 7870",
+                "almacenamiento" : "35 GB de espacio disponible"
             },
             "maximos" : {
-                "so" : "",
-                "procesador" : "",
-                "memoria" : "",
-                "graficos" : "",
-                "almacenamiento" : ""
+                "so" : "64-bit Windows 7, 64-bit Windows 8 (8.1) or 64-bit Windows 10",
+                "procesador" : "Intel CPU Core i7 3770 3.4 GHz / AMD CPU AMD FX-8350 4 GHz",
+                "memoria" : "8 GB de RAM",
+                "graficos" : "Nvidia GPU GeForce GTX 770 / AMD GPU Radeon R9 290",
+                "almacenamiento" : "35 GB de espacio disponible"
             }
         }
     },  
     {   
         "id" : 18,
         "genero" : ["Supervivencia en mundo abierto", "SupervivenciaRol"],
-        "fecha_salida" : "",
-        "desarrolladores" : "",
-        "distribuidora" : "" ,
+        "fecha_salida" : "2 FEB 2021",
+        "desarrolladores" : "Iron Gate AB",
+        "distribuidora" : "Coffee Stain Publishing" ,
         "titulo" : "Valheim",
         "imagen" : "../img/imagenes_juegos/valheim.jpg",
         "requisitos" : {

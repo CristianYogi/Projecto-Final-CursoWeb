@@ -5,8 +5,10 @@
       <li><a href="/juegos">Juegos</a></li>
       <li><a href="/noticias">Noticias</a></li>
     </ul>
-    <div id="buscador">
-      <img id="icono-buscar" src="img/logos/Buscar.svg" alt="">
-      <input type="text">
+    <div id="buscador"> 
+      <img id="icono-buscar" src="../img/logos/Buscar.svg" alt="">
+      <form action="/busqueda" method="GET">
+        <input type="text" name="nombre" placeholder="Nombre de Juego">
+      </form>
     </div>
 </nav>

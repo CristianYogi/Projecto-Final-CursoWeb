@@ -1,4 +1,8 @@
 
+body {
+    height: 100vh;
+  }
+
 body{
     margin: 0px;
 }
@@ -68,10 +72,9 @@ nav{
 }
 
 footer{
-    position:relative;
+    width: 100%;
     display: flex;
     align-items: center;
-   
     height: 100px;
     background-color: black;
 }
