@@ -131,33 +131,33 @@
 .contenedor{
     display: flex;
     flex-direction: column;
-    
+
+    width: 100%;
 }
 
 .contenedor-mes{
     display: flex;
     width: 100%;
     
-    min-width: 300px;
+    min-width: 350px;
     
 }
 
 #contenedor-sig{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    /* justify-content: space-around; */
 
     box-shadow: 1px 1px 8px 1px black;
 
     margin: 50px 0px;
     padding: 40px;
-    width: 80%;
+    width: 85%;
     background-color: #edf2f4;
 
 }
 
 .contenedor-prox-juegos{
-
 
     display: flex;
     flex-direction: column;
@@ -178,8 +178,16 @@
 
 
 .juegosprox a{
+    position: relative;
     text-decoration: none;
     color: black;
+    width: 100%;
+}
+
+.fecha-juego{
+    position: absolute;
+    right: 0px;
+    
 }
 
 .juegosprox a:hover{
